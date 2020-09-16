@@ -1,0 +1,89 @@
+
+
+
+# Level 1
+# a stairway shapped level
+
+
+START_LEVEL
+level_name:Stairway
+ball_velocities:0,100 0,100 0,50 0,100 0,100
+background:color(green)
+paddle_speed:100
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:15
+START_BLOCKS
+-
+r
+-r
+--r
+---r
+----r
+-----r
+------r
+-------r
+--------r
+---------r
+----------r
+-----------r
+------------r
+-------------r
+--------------r
+END_BLOCKS
+END_LEVEL
+
+
+
+# Level 2
+# alot of blocks
+
+START_LEVEL
+level_name: Win or Lose
+ball_velocities:-60,500 -45,500 -30,500 -15,500 15,500 30,500 45,500 60,500
+background:color(black)
+paddle_speed:100
+paddle_width:550
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:15
+START_BLOCKS
+rrooyygggbbppcc
+rrooyygggbbppcc
+rrooyygggbbppcc
+--------------------
+--------------------
+--------------------
+-
+
+END_BLOCKS
+END_LEVEL
+
+
+
+
+# Level 3
+# blocks on edges of level
+
+START_LEVEL
+level_name:Edges
+ball_velocities:45,500
+background:color(black)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:100
+num_blocks:4
+START_BLOCKS
+-----------------
+-------r--------
+----r----------r
+END_BLOCKS
+END_LEVEL
